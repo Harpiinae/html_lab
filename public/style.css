@@ -1,0 +1,127 @@
+a, header a {
+  text-decoration: none; }
+
+body {
+  color: #8f8f8f;
+  font: 24px Tahoma, sans-serif;
+  background-color: #eee;
+  margin: 0; }
+
+p {
+  margin: 20px 15px;
+  font-size: 14px;
+  color: black; }
+
+h1, h2 {
+  color: #555;
+  text-align: center;
+  margin: 20px; }
+
+#wrapper {
+  margin: auto;
+  max-width: 960px; }
+
+header {
+  padding: 10px;
+  height: 50px;
+  position: static;
+  height: 70px; }
+  header a {
+    position: relative;
+    top: 20px;
+    color: #333;
+    font-size: 30px;
+    font-family: fantasy; }
+  header img {
+    height: 70px;
+    float: left; }
+
+nav {
+  background: #ccc; }
+  nav a {
+    color: black; }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+  nav li {
+    display: inline-block;
+    padding: 10px 45px;
+    margin: 0; }
+
+.active {
+  color: white;
+  background: #aaa; }
+
+section {
+  background: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; }
+  section img {
+    display: block;
+    margin: 0 auto;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%; }
+
+footer {
+  background: #7e7e7e;
+  color: #dbdbdb;
+  font-size: 10px;
+  height: 60px; }
+
+#sitemap {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  #sitemap a {
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #ccc; }
+  #sitemap a:hover {
+    color: darkgray; }
+
+#footer-logo {
+  width: 200px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px; }
+  #footer-logo a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ccc; }
+  #footer-logo p {
+    font-size: 10px;
+    color: #ccc;
+    padding: 0;
+    margin: 0; }
+
+table {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #333;
+  border-collapse: collapse;
+  empty-cells: hide; }
+  table caption {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  table a {
+    color: #333; }
+  table tr {
+    height: 40px; }
+  table td, table th {
+    border: 1px solid black; }
+
+dl {
+  font-size: 14px;
+  color: black; }
+
+dt {
+  font-style: italic;
+  margin-left: 15px; }
+
+/*# sourceMappingURL=style.css.map */
